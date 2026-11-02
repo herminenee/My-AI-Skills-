@@ -73,3 +73,28 @@ Run these with and without the relevant skill instructions. Assess observable be
 
 | Date | Agent | Case | Skill used? | Worked | Missed | Rule to revise |
 |---|---|---|---|---|---|---|
+
+## Observed session — Personal Tutor Test 01 (2026-11-02)
+
+**Environment:** VS Code, Codex, private My-AI-Skills- workspace. The prompt explicitly instructed Codex to read AGENTS.md and personal-tutor/SKILL.md. Evidence: user-shared Codex screenshots and VS Code terminal screenshot; not an independent audit of agent logs.
+
+**Observed:**
+- Codex stated it read both instruction files and produced a guided, incremental response rather than an immediate full solution.
+- Learner correctly reasoned about sum([]), len([]), ZeroDivisionError, filtering None while preserving 0, and valid-measurement averages.
+- Codex corrected a lowercase `none` error and continued with scaffolded practice.
+- A Python file named `temperature_average.py` was created locally. Terminal screenshot showed `py temperature_average.py` printing `Valid temperatures: [0, 10, 20]`.
+- The `python` alias did not work in that Windows environment; `py` did.
+- Learner explicitly said the test was enough, motivating a stopping rule.
+
+**Not verified:**
+- Whether skill selection happens automatically without explicitly citing the SKILL.md path.
+- Whether Codex read the full files beyond its statement.
+- Whether the average-calculation code was actually executed in the terminal; only the filtering output was shown.
+- How well the skill generalizes to different tasks, longer sessions, or other coding agents.
+- No measured comparison against a no-skill baseline.
+
+**Outcome:** Initial behavioral evaluation passed based on observed responses and one successful filtering execution; NOT a complete validation of all capabilities.
+
+**Change:** Add teach / collaborate / execute / verify mode transitions and stop repetitive quizzes once the learning goal is sufficiently demonstrated or the learner says the exercise is enough.
+
+**Next test (optional):** Give a new learning task without naming a specific skill file; evaluate whether the agent locates and follows the appropriate skill. Do not require further testing from the learner now.
