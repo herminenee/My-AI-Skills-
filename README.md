@@ -1,4 +1,4 @@
-# My AI Skills — v0.2
+# My AI Skills — v0.3
 
 A private, editable personal skill library for AI-assisted coding, design, learning, and project continuity.
 
@@ -11,6 +11,7 @@ A private, editable personal skill library for AI-assisted coding, design, learn
 | `personal-design` | Improve visual communication while preserving successful design choices |
 | `personal-memory` | Capture verified project decisions and make clear, safe handoffs |
 | `personal-tutor` | Tailor practice to observed progress and encourage independent problem solving |
+| `personal-document-workflow` | Turn validated research data into auditable figures, spreadsheets, reports and weekly presentations |
 
 - `AGENTS.md` defines general collaboration and skill-selection instructions.
 - `skills/*/SKILL.md` contains skill-specific workflows.
@@ -32,3 +33,7 @@ This library is **not** an automatic long-term memory service. The memory skill 
 Skill files are instructions, not executable guarantees. Agent compatibility and automatic discovery vary by environment.
 
 No external frameworks are required to use these starter instructions. Review any third-party skill before installing it. Never commit API keys, credentials, private transcripts, or sensitive data, even in a private repository.
+
+## Research delivery workflow
+
+For a weekly laboratory report, consult `skills/personal-document-workflow/SKILL.md`, use its `weekly-update-template.md` and quality checklist, and retain evidence supporting each result. No experiment data is included in this skills repository.
