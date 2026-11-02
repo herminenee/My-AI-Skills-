@@ -1,4 +1,4 @@
-# My AI Skills — v0.3
+# My AI Skills — v0.4
 
 A private, editable personal skill library for AI-assisted coding, design, learning, and project continuity.
 
@@ -12,6 +12,7 @@ A private, editable personal skill library for AI-assisted coding, design, learn
 | `personal-memory` | Capture verified project decisions and make clear, safe handoffs |
 | `personal-tutor` | Tailor practice to observed progress and encourage independent problem solving |
 | `personal-document-workflow` | Turn validated research data into auditable figures, spreadsheets, reports and weekly presentations |
+| `skill-discovery-evaluation` | Inspect and evaluate third-party skills before adoption |
 
 - `AGENTS.md` defines general collaboration and skill-selection instructions.
 - `skills/*/SKILL.md` contains skill-specific workflows.
@@ -37,3 +38,7 @@ No external frameworks are required to use these starter instructions. Review an
 ## Research delivery workflow
 
 For a weekly laboratory report, consult `skills/personal-document-workflow/SKILL.md`, use its `weekly-update-template.md` and quality checklist, and retain evidence supporting each result. No experiment data is included in this skills repository.
+
+## Evaluating external skills
+
+Read `skills/skill-discovery-evaluation/SKILL.md`, apply the safety gate and weighted rubric in `references/evaluation-rubric.md`, and record candidates in `references/candidate-register.md`. Candidates are not installed by being listed. Use synthetic tests and explicit authorization before installation.
