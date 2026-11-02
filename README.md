@@ -1,4 +1,4 @@
-# My AI Skills — v0.4
+# My AI Skills — v0.4.1
 
 A private, editable personal skill library for AI-assisted coding, design, learning, and project continuity.
 
@@ -42,3 +42,9 @@ For a weekly laboratory report, consult `skills/personal-document-workflow/SKILL
 ## Evaluating external skills
 
 Read `skills/skill-discovery-evaluation/SKILL.md`, apply the safety gate and weighted rubric in `references/evaluation-rubric.md`, and record candidates in `references/candidate-register.md`. Candidates are not installed by being listed. Use synthetic tests and explicit authorization before installation.
+
+## Personal Tutor — initial evaluated session
+
+On 2026-11-02, a Codex-guided Python filtering exercise demonstrated incremental teaching and a successful local run of `temperature_average.py` with output `Valid temperatures: [0, 10, 20]`. The actual average computation and automatic skill discovery were **not** independently verified. See `tests/evaluation-cases.md` for evidence and limitations.
+
+The Tutor skill now follows: **Teach while learning; collaborate while exploring; execute when the user decides; verify before declaring success.** Stop repetitive questioning when the learner has demonstrated the objective or requests to end the exercise.
