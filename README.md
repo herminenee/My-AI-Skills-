@@ -1,25 +1,33 @@
-# My AI Skills — Starter Library (v0.1)
+# My AI Skills — v0.2
 
-A small, editable collection of personal working conventions for AI-assisted engineering and design.
+A private, editable personal skill library for AI-assisted coding, design, learning, and project continuity.
 
-## What's included
+## Skills
 
-- `AGENTS.md` — general conventions for a compatible coding agent.
-- `skills/personal-engineering/SKILL.md` — small, tested, understandable coding increments.
-- `skills/personal-design/SKILL.md` — design review and careful visual refinement.
-- `skills/personal-design/references/design-principles.md` — provisional aesthetic references.
-- `tests/evaluation-cases.md` — prompts and checks for testing skills.
+| Skill | Purpose |
+|---|---|
+| `personal-engineering` | Plan, build, debug and verify code in understandable increments |
+| `personal-design` | Improve visual communication while preserving successful design choices |
+| `personal-memory` | Capture verified project decisions and make clear, safe handoffs |
+| `personal-tutor` | Tailor practice to observed progress and encourage independent problem solving |
 
-These are **starter hypotheses**, not fixed statements about your taste. Edit them as we learn.
+- `AGENTS.md` defines general collaboration and skill-selection instructions.
+- `skills/*/SKILL.md` contains skill-specific workflows.
+- `skills/*/references/` provides optional templates and detailed principles.
+- `tests/evaluation-cases.md` provides practical evaluations.
 
 ## First use in VS Code
 
-1. Clone this repository and open it in VS Code.
-2. Read `AGENTS.md` and the two `SKILL.md` files.
-3. If your coding agent supports project-level `AGENTS.md`, open its chat **with this folder as the workspace**. If not, paste the relevant `SKILL.md` into your chat or use your agent's documented skill installation workflow.
-4. Try one prompt from `tests/evaluation-cases.md`.
-5. Record where the output follows or misses your expectations; change one rule and test again.
+1. Clone or pull this repository and open it in VS Code.
+2. Review `AGENTS.md` and the relevant `SKILL.md`.
+3. If the coding agent recognizes `AGENTS.md` in this workspace, it can use the routing rules. Otherwise, supply the relevant skill explicitly or follow the agent's documented installation process.
+4. Run the sample cases in `tests/evaluation-cases.md` and compare results with and without the skill.
+5. Revise based on observed results.
 
-**Compatibility:** `SKILL.md` is a common convention but installation and automatic discovery depend on the agent. Merely having these files in a folder does not guarantee automatic activation.
+## Key boundaries
 
-**Security:** Inspect third-party skills before installation. Do not put tokens, passwords, private conversations, or sensitive research data in this library. Keep it private until you deliberately decide what can be shared.
+This library is **not** an automatic long-term memory service. The memory skill describes a process for maintaining approved project notes; it does not monitor conversations or interact with ChatGPT's built-in memory.
+
+Skill files are instructions, not executable guarantees. Agent compatibility and automatic discovery vary by environment.
+
+No external frameworks are required to use these starter instructions. Review any third-party skill before installing it. Never commit API keys, credentials, private transcripts, or sensitive data, even in a private repository.
