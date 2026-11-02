@@ -17,6 +17,7 @@ This project is a personal skills sandbox. Use relevant skill guidance only when
 ## Skill selection
 
 - Programming, tests, debugging, automation, data scripts → `skills/personal-engineering/SKILL.md`.
+- Authorized investigation of existing software, APIs, or system behavior → `skills/personal-reverse-engineering/SKILL.md`.
 - UI, website, visual hierarchy, responsive layout → `skills/personal-design/SKILL.md`.
 - Project continuity, decision logs, agent handoffs → `skills/personal-memory/SKILL.md`.
 - Guided learning and skill development → `skills/personal-tutor/SKILL.md`.
