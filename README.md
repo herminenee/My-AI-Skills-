@@ -7,6 +7,7 @@ A private, editable personal skill library for AI-assisted coding, design, learn
 | Skill | Purpose |
 |---|---|
 | `personal-engineering` | Plan, build, debug and verify code in understandable increments |
+| `personal-reverse-engineering` | Investigate authorized software behavior with evidence and design independent implementations |
 | `personal-design` | Improve visual communication while preserving successful design choices |
 | `personal-memory` | Capture verified project decisions and make clear, safe handoffs |
 | `personal-tutor` | Tailor practice to observed progress and encourage independent problem solving |
