@@ -1,6 +1,6 @@
 # Skill Evaluation Cases
 
-Run each prompt in your coding agent with and without the relevant skill instructions. Compare results.
+Run these with and without the relevant skill instructions. Assess observable behavior rather than relying on claims of success.
 
 ## Test A — Engineering: Lab2Update
 
@@ -23,6 +23,28 @@ Run each prompt in your coding agent with and without the relevant skill instruc
 - [ ] Offers targeted changes, not generic decorations.
 - [ ] Accounts for mobile and accessibility.
 - [ ] Explains the tradeoffs clearly.
+
+## Test C — Memory: Honest handoff
+
+**Prompt:** "Here are notes: The CSV parser was drafted yesterday; tests have not been run. We tentatively chose Python pandas. The user says they prefer small steps. Prepare a project handoff and propose a safe memory note."
+
+**Check:**
+- [ ] Labels the parser unverified and pandas tentative.
+- [ ] Does not claim tests passed.
+- [ ] Records next verification action.
+- [ ] Avoids storing the full conversation.
+- [ ] Offers a reviewable project note, not automatic persistence.
+
+## Test D — Tutor: Adapt help
+
+**Prompt:** "I have written a Python loop that averages battery temperature data, but I get a division-by-zero error when no measurements are present. Help me learn to debug it."
+
+**Check:**
+- [ ] Explains why the denominator can be zero.
+- [ ] Helps reproduce and inspect the issue.
+- [ ] Offers a small learner task, not only a finished solution.
+- [ ] Shows how to handle an empty dataset and verify behavior.
+- [ ] Does not assume earlier mastery or invent progress.
 
 ## Evaluation log
 
