@@ -20,6 +20,7 @@ This project is a personal skills sandbox. Use relevant skill guidance only when
 - Authorized investigation of existing software, APIs, or system behavior → `skills/personal-reverse-engineering/SKILL.md`.
 - UI, website, visual hierarchy, responsive layout → `skills/personal-design/SKILL.md`.
 - Project continuity, decision logs, agent handoffs → `skills/personal-memory/SKILL.md`.
+- Lab data summaries, figures, spreadsheets, presentations, Word/PDF and research updates → `skills/personal-document-workflow/SKILL.md`.
 - Guided learning and skill development → `skills/personal-tutor/SKILL.md`.
 - For multiple needs, combine relevant skills without repeating procedures.
 
