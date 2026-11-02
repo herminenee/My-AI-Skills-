@@ -22,6 +22,7 @@ This project is a personal skills sandbox. Use relevant skill guidance only when
 - Project continuity, decision logs, agent handoffs → `skills/personal-memory/SKILL.md`.
 - Lab data summaries, figures, spreadsheets, presentations, Word/PDF and research updates → `skills/personal-document-workflow/SKILL.md`.
 - Guided learning and skill development → `skills/personal-tutor/SKILL.md`.
+- Finding, auditing, selecting, or installing external skills → `skills/skill-discovery-evaluation/SKILL.md`.
 - For multiple needs, combine relevant skills without repeating procedures.
 
 ## Teaching mode
