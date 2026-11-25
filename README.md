@@ -1,6 +1,19 @@
 # My AI Skills — v0.4.1
 
-A private, editable personal skill library for AI-assisted coding, design, learning, and project continuity.
+A public, evolving collection of reusable AI-agent instructions for engineering, design, learning, research documentation, and project continuity. Built around practical tasks, human-led decisions, evidence-based verification, and privacy-conscious collaboration.
+
+## Workflow
+
+```mermaid
+flowchart LR
+    A[Define the goal] --> B[Select relevant skills]
+    B --> C[Work in small steps]
+    C --> D[Verify against evidence]
+    D --> E[Human review]
+    E --> F[Record approved decisions]
+```
+
+**Project status:** actively developed; evaluation coverage is preliminary. These skills are instructions, not a standalone agent runtime.
 
 ## Skills
 
